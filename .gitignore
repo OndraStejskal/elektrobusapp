@@ -1,0 +1,7 @@
+.vscode
+node_modules
+package-lock.json
+*.asc
+*.txt
+data
+external-modules

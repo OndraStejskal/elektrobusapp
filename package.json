@@ -1,0 +1,36 @@
+{
+  "name": "elektrobusapp",
+  "version": "1.0.0",
+  "author": "VDT technology a.s.",
+  "scripts": {
+    "start": "node sender"
+  },
+  "dependencies": {
+    "@mindconnect/mindconnect-nodejs": "^3.10.0",
+    "assetmanagement-sdk": "file:external-modules/assetmanagement-sdk-3.9.0.tgz",
+    "chart.js": "^2.9.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-async-handler": "^1.1.4",
+    "express-winston": "^4.0.5",
+    "http-errors": "~1.6.3",
+    "iotfileservices-sdk": "file:external-modules/iotfileservices-sdk-3.2.0.tgz",
+    "jade": "~1.11.0",
+    "mindsphere-sdk-node-core": "file:external-modules/mindsphere-sdk-node-core-1.0.0.tgz",
+    "morgan": "~1.9.1",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.1",
+    "timeseries-sdk": "file:external-modules/timeseries-sdk-3.2.0.tgz",
+    "winston": "^3.3.3",
+    "xml2js": "^0.4.23"
+  },
+  "engines": {
+    "node": "14.8.0",
+    "npm": "6.14.8"
+  },
+  "main": "sender.js",
+  "license": "ISC",
+  "description": ""
+}
